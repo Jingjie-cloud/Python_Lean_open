@@ -32,7 +32,6 @@ def mess():
         showinfo('TMD', '你这也算男人？！')
         aaa = '电脑觉得你是个娘炮！'
 
-    # showwarning('警告！', '是否关闭')
 
 def thread(tar):
     threads = []
