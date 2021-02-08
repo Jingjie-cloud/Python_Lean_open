@@ -15,7 +15,7 @@ def boom():
     w = random.randrange(0, width)
     h = random.randrange(0, heigh)
     window.title('严君泽真香警告！')
-    window.geometry('200x100+'+str(w)+'+'+str(h))
+    window.geometry('250x100+'+str(w)+'+'+str(h))
     tk.Label(window, text=aaa, fg='red', bg='white', font=('宋体', 16),
              width=20, heigh=4).pack()
     window.mainloop()
