@@ -7,7 +7,7 @@ import time
 device = {'device_type': 'cisco_nxos', #'cisco_ios_telnet',#
           'host': '10.1.4.207',
           'username': 'admin',
-          'password': 'NetMo@303'
+          'password': 'abc'
           }
 
 net_connet = netmiko.ConnectHandler(**device)
